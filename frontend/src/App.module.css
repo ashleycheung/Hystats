@@ -1,0 +1,105 @@
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.logo {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5rem;
+}
+
+.logoText {
+  color: #ECD662;
+  font-size: 5rem;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  color: #59C789;
+  text-align: center;
+}
+
+.logoImg {
+  width: 15em;
+  image-rendering: pixelated;
+}
+
+.searchWrapper {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: #59C789;
+  background-color: inherit;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Minecraft', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.searchBtn {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #231336;
+  background-color: #ECD662;
+  font-family: 'Minecraft', sans-serif;
+}
+
+.searchBtn:hover {
+  background-color: #FFCC29;
+}
+
+.resultsWrapper {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.resultsProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fefefe;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.skinContainer {
+}
+
+.resultsUsername {
+  color: #231336;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.chartWrapper {
+  margin-left: 1rem;
+  background-color: #fefefe;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.loaderWrapper {
+  margin: 1rem;
+}
